@@ -1,0 +1,150 @@
+nav {
+	margin-bottom: 10px;
+}
+
+.card-img-top {
+	width: auto !important;
+	margin-top: 10px;
+}
+
+.card-deck .card {
+	margin-bottom: 15px;
+}
+
+.dropdown-item {
+	padding: .25rem 1rem !important;
+}
+
+table.dataTable {
+	border-collapse: collapse !important;
+}
+
+div.dataTables_wrapper div.dataTables_length {
+	float: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+	float: right;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+	float: left;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+	float: right;
+}
+
+div.dataTables_wrapper div.dataTables_length,
+div.dataTables_wrapper div.dataTables_filter,
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_paginate {
+	text-align: justify !important;
+}
+
+hr {
+	margin-top: .5rem !important;
+	margin-bottom: .5rem !important;
+}
+
+/* Điều chỉnh */
+body {
+	font-size: .9286rem !important;
+}
+
+legend {
+	font-size: 1rem !important;
+}
+
+.form-control {
+	font-size: .9286rem !important;
+}
+
+.btn {
+	font-size: .9286rem !important;
+}
+
+.dropdown-menu {
+	font-size: .9286rem !important;
+}
+
+.input-group-addon {
+	font-size: .9286rem !important;
+}
+
+.popover-header {
+	font-size: .9286rem !important;
+}
+
+.container {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 576px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 992px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+/* slideshow */
+.jssorb {
+	position: absolute;
+}
+.jssorb div, .jssorb div:hover, .jssorb .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 16px;
+	height: 16px;
+	background: url('images/b05.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jssorb div { background-position: -7px -7px; }
+.jssorb div:hover, .jssorb .av:hover { background-position: -37px -7px; }
+.jssorb .av { background-position: -67px -7px; }
+.jssorb .dn, .jssorb .dn:hover { background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 12 css */
+/*
+.jssoral                  (normal)
+.jssorar                  (normal)
+.jssoral:hover            (normal mouseover)
+.jssorar:hover            (normal mouseover)
+.jssoral.jssoraldn      (mousedown)
+.jssorar.jssorardn      (mousedown)
+*/
+.jssoral, .jssorar {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 30px;
+	height: 46px;
+	cursor: pointer;
+	background: url('images/a12.png') no-repeat;
+	overflow: hidden;
+}
+.jssoral { background-position: -16px -37px; }
+.jssorar { background-position: -75px -37px; }
+.jssoral:hover { background-position: -136px -37px; }
+.jssorar:hover { background-position: -195px -37px; }
+.jssoral.jssoraldn { background-position: -256px -37px; }
+.jssorar.jssorardn { background-position: -315px -37px; }
